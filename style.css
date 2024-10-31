@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: red;
+    margin: 20px 0;
+}
+
+table {
+    margin: 0 auto;
+    collapse: 1;
+    border: 1px #ccc solid;
+}
+
+th, td {
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    background: #0f3788;
+    color: #fff;
+}
+
+tr:nth-child(even) td {
+    background: #e8e6e6;
+}
+
+section {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+}
+
+input {
+    margin-top: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+#addBtn {
+    background: #09f61a;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    margin-top: 20px;
+    padding: 10px;
+    color: #fff;
+}
+
+#addBtn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

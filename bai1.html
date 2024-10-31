@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 1</title>
+</head>
+<body>
+    <script>
+        function averages(arr) {
+            let sum = 0;
+            let count = 0;
+            for (let i = 0; i < arr.length && i < 50; i++) {
+                if (arr[i] % 3 === 0) {
+                    sum += arr[i];
+                    count++;
+                }
+            }
+            return sum / count;
+        }
+        let numbers = [12, 15, 7, 9, 18, 5, 24, 30, 8, 14];
+        document.write("Trung binh cong cac so chia het cho 3 trong mang la: " + averages(numbers));
+
+    </script>
+</body>
+</html>
